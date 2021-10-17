@@ -10,7 +10,7 @@ const { Title } = Typography;
 
 const Homepage = () => {
   const { data, isLoading } = useGetCryptosQuery(10);
-  console.log(data);
+
   const globalStats = data?.data?.stats;
 
   return (
